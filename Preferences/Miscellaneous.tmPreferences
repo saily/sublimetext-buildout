@@ -31,6 +31,12 @@
                 <key>value</key>
                 <string># </string>
             </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_COMMENT_DISABLE_INDENT</string>
+                <key>value</key>
+                <string>yes</string>
+            </dict>
         </array>
         <key>smartTypingPairs</key>
         <array>
