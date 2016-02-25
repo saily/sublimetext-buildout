@@ -51,6 +51,18 @@
             <string>^([a-zA-Z0-9_.-]+)\b\s*(=|\+=|\-=)</string>
         </dict>
         <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.language.reference.buildout</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string><![CDATA[^<=\s*([a-zA-Z0-9_.-]+)]]></string>
+        </dict>
+        <dict>
             <key>match</key>
             <string>^recipe\s*=\s*(.*)$</string>
             <key>name</key>
